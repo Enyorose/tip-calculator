@@ -19,3 +19,4 @@ billTotal = subTotalPlusTax + tipAmount;
 
 // Output result with template literals
 console.log(`Your bill is $${billSubTotal} including tax is ${subTotalPlusTax.toFixed(2)} plus tip at ${tipPercentage}%: $${tipAmount.toFixed(2)}. Total Payment is ${billTotal.toFixed(2)}`);
+
